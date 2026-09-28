@@ -7,9 +7,9 @@ repository contains no source code, only published release packages and their re
 
 ## Install
 
-AgenticEMT is not a standalone program: it runs inside an application that supports it, and that
-application's **Download AgenticEMT** link is what brings you here. Download
-`agentic-emt-<version>.zip` from the latest release, then in VS Code:
+AgenticEMT is not a standalone program, and not a VS Code extension on its own: it runs inside an
+application that supports it, and that application's **Download AgenticEMT** link is what brings you
+here. Download `agentic-emt-<version>.zip` from the latest release, then, in that application:
 
 1. Run **Install AgenticEMT Package…** from the Command Palette.
 2. Choose **Install from a downloaded .zip** and pick the file you downloaded. There is no need to
