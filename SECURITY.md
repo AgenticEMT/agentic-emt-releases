@@ -11,7 +11,8 @@ Please do not open a public issue for a suspected vulnerability.
 Useful to include, as far as you have it:
 
 - what you observed, and the steps to reproduce it;
-- the AgenticEMT version, the Modex for VS Code version, and your OS version;
+- the AgenticEMT version, the name and version of the application you run it in, and your OS
+  version;
 - the SHA-256 of the package you installed, if the report concerns a downloaded file.
 
 ## Supported versions

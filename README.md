@@ -1,19 +1,22 @@
 # AgenticEMT releases
 
-Official downloads of **AgenticEMT** — PSCAD `.pscx` editing for Modex. This repository contains no
-source code, only published release packages and their release notes.
+Official downloads of **AgenticEMT**, a plugin package for editing PSCAD `.pscx` projects. This
+repository contains no source code, only published release packages and their release notes.
 
 **Latest release: <https://github.com/AgenticEMT/agentic-emt-releases/releases/latest>**
 
 ## Install
 
-AgenticEMT runs inside **Modex for VS Code 0.1.15 or later**, the first version that opens `.pscx`
-projects. Download `agentic-emt-<version>.zip` from the latest release, then in VS Code:
+AgenticEMT is not a standalone program: it runs inside an application that supports it, and that
+application's **Download AgenticEMT** link is what brings you here. Download
+`agentic-emt-<version>.zip` from the latest release, then in VS Code:
 
-1. Run **Modex: Install AgenticEMT Package…** from the Command Palette.
+1. Run **Install AgenticEMT Package…** from the Command Palette.
 2. Choose **Install from a downloaded .zip** and pick the file you downloaded. There is no need to
    unpack it.
 3. Reopen any `.pscx` you had open.
+
+If the application is too old to load a release, it says so when the package is installed.
 
 AgenticEMT draws PSCAD components with the artwork of the PSCAD installed on your own Windows
 machine. Nothing derived from PSCAD's component library is in these downloads, and the artwork it
