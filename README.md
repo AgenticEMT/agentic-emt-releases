@@ -8,15 +8,17 @@ repository contains no source code, only published release packages and their re
 ## Install
 
 AgenticEMT is not a standalone program, and not a VS Code extension on its own: it runs inside an
-application that supports it, and that application's **Download AgenticEMT** link is what brings you
-here. Download `agentic-emt-<version>.zip` from the latest release, then, in that application:
+application that supports it. There are two ways to install it there:
 
-1. Run **Install AgenticEMT Package…** from the Command Palette.
-2. Choose **Install from a downloaded .zip** and pick the file you downloaded. There is no need to
-   unpack it.
-3. Reopen any `.pscx` you had open.
+- **In one step:** run **Install AgenticEMT** from the Command Palette, or click **Install
+  AgenticEMT** on a `.pscx` that says AgenticEMT is not installed. It downloads the latest release
+  from this repository, checks its SHA-256 and installs it.
+- **From a download:** download `agentic-emt-<version>.zip` from the latest release, run **Install
+  AgenticEMT from ZIP…** from the Command Palette, and pick that file. There is no need to unpack
+  it. Use this when the application cannot reach GitHub.
 
-If the application is too old to load a release, it says so when the package is installed.
+Either way, an open `.pscx` switches to the editor once AgenticEMT is ready. If the application is
+too old to load a release, it says so when the package is installed.
 
 AgenticEMT draws PSCAD components with the artwork of the PSCAD installed on your own Windows
 machine. Nothing derived from PSCAD's component library is in these downloads, and the artwork it
@@ -24,7 +26,8 @@ extracts stays on your machine.
 
 ## Verify your download
 
-Every release publishes the SHA-256 of its package, in the release notes and in `SHA256SUMS`:
+**Install AgenticEMT** checks this for you. For a file you downloaded yourself, every release
+publishes the SHA-256 of its package, in the release notes and in `SHA256SUMS`:
 
 ```powershell
 Get-FileHash .\agentic-emt-<version>.zip -Algorithm SHA256
